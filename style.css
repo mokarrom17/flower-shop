@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* The header section navbar style */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    /* background-color: #E55473; */
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logo a{
+    list-style: none;
+    text-decoration: none;
+    color: #E55473;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.letter-l{
+    color: #E55473;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 30px;
+}
+
+.menu li{
+    list-style-type: none;
+    color: white;
+}
+
+.menu .list a{
+    text-decoration: none;
+    color: #E55473;
+    font-weight: bold;
+}
+
+.menu .list a:hover{
+    text-decoration: none;
+    color: #272727;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #E55473;
+}
+
+.nav-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #E55473;
+}
+
+.nav-btn a:hover{
+    cursor: pointer;
+    color: #E55473;
+}
+
+/* This is the website main section style */
+
+/* This is banner section */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    height: 801px;
+    
+}
+
+.banner .banner-image img{
+    width: 535px;
+    height: 700px;
+    flex-shrink: 0;
+    margin-top: 20%;
+}
+
+.banner .banner-text{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    margin-left: 5%;
+    padding-left: 20px;
+
+}
+
+.banner-text .banner-heading{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.banner-text .banner-article{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.banner-btn a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.banner-btn a .fa-brands{
+    margin-right: 5px;
+}
+
+.banner-btn{
+    height: 64px;
+    width: 177px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+
+.banner-btn:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+}
+
+.banner-btn a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/* This is about (Bonus) section */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#profile-pic{
+    height: 220px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.name{
+    color: #E55473;
+    font-weight: bold;
+}
+
+.designation{
+    margin-bottom: 30px;
+    color: #272727;
+}
+
+.about-article{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    line-height: normal;
+}
+
+/* This is feature section */
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+
+.featured-text{
+    text-align: center;
+}
+
+.featured-heading{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.featured-para{
+    text-align: center;
+    line-height: 30px;
+    color: #272727;
+
+}
+
+.featured-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 364px;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 100px;
+
+}
+
+.box .feature-cap{
+    margin-top: 5px;
+    padding-top: 10px;
+    /* text-decoration-line: underline; */
+    color: #272727;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #272727;
+}
+
+/* This is hot-sell section */
+
+.hot-sell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 70px;
+}
+
+.hot-sell-text{
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hot-sell-heading{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #272727;
+}
+
+.hot-sell-off{
+    color: #E55473;
+}
+
+.hot-sell-para{
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.hot-sell-btn a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hot-sell-btn a .fa-brands{
+    margin-right: 5px;
+}
+
+.hot-sell-btn{
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+
+.hot-sell-btn:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+}
+
+.hot-sell-btn a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.hot-sell-img{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+/* This is Social-media section */
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 180px;
+}
+
+.social-media-text{
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.social-media-text h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    
+}
+
+.social-media-text p{
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+  
+}
+
+.social-media-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-shrink: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: auto;
+    gap: 10px;
+}
+
+.social-media-cards .card{
+    width: 262px;
+    height: 330px;
+    flex-shrink: 0;
+}
+
+/* This is Social-media section */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(./Flower-Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 419px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 120px;
+}
+
+.contact-heading{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+#coupon{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 20px;
+}
+
+.contact-email{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-name{
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 600px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+input[type="text"]{
+    color: #E55473;
+}
+
+#email{
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 600px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+input[type="email"]{
+    color: #E55473;
+}
+
+.contact-btn a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.contact-btn a .fa-brands{
+    margin-right: 5px;
+}
+
+.contact-btn{
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+
+.contact-btn:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+}
+
+.contact-btn a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+/* This is the website footer section style */
+
+footer{
+    background-color: #272727;
+    width: 100%;
+    height: 449px;
+    flex-shrink: 0;
+    display: flex;align-items: center;
+    justify-content: center;
+
+}
+
+.footer-text{
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+
+}
+
+.footer-heading{
+    color: white;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.footer-flower{
+    color: #E55473;
+}
+
+.footer-para{
+    margin-bottom: 25px;
+}
+
+#copy-right{
+    margin-top: 15px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
